@@ -29,4 +29,4 @@ export default {
 - Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
 - Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
 
-# Figma: https://www.figma.com/file/g4gov94R7gdA7J3R1nTzIk/08.-Grocery-Ecommerce-Templates-(Hard)?type=design&t=M44eZ6sF2mLcXyAT-6
+- Figma: `https://www.figma.com/file/g4gov94R7gdA7J3R1nTzIk/08.-Grocery-Ecommerce-Templates-(Hard)?type=design&t=M44eZ6sF2mLcXyAT-6`
