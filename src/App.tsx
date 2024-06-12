@@ -1,19 +1,11 @@
-import { Button, Checkbox, Group, TextInput } from '@mantine/core';
-import { useForm } from '@mantine/form';
-import NewPro from './components/ImportUrl';
-import { ActiveBar } from './components/ActiveBar';
-import ImportUrl from './components/ImportUrl';
-import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
-import { UserProvider } from './store/StoreProvider';
-
+import { Text, Button, useMantineTheme } from "@mantine/core";
 const App = () => {
+  const theme = useMantineTheme();
   return (
-    <QueryClientProvider client={new QueryClient}>
-      <UserProvider>
-        <ImportUrl />
-        <ActiveBar />
-      </UserProvider>
-    </QueryClientProvider>
+    <>
+      <Text>hELLO</Text>
+      <Button color={theme.colors.neutral[0]}>Hello</Button>
+    </>
   );
 }
 export default App;
